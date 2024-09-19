@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> HTML </title>
+    </head>
+    <body>
+        <h1> INTRODUCCION A HTML </h1>
+        <p> Significa hipertexto, es un programa que define la estructura de una pagina web, los elemento de HTML le indican al navegador como mostrar el contenido. </p>
+
+        <fieldset>
+        <H2><legend> Elementos Html </legend></H2>
+        <dl>
+            <dt> Encabezados: </dt>
+            <dd> Sirven para agregar un titulo </dd>
+            <img src="https://www.enago.com/academy/latam/wp-content/uploads/sites/20/2019/05/Research-Title-750x300-750x300.jpg" alt="Titulo"><br>
+            <a href="https://ejemplos encabezados.com" target="_blank"> Ejemplos de encabezados </a>
+            <hr>
+            <dt> Parrafos: </dt>
+            <dd> Estos permiten agregar un texto </dd>
+            <img src="https://prints.ultracoloringpages.com/2463200cf4e6337be5262ddc185281ff.png" alt="Parrafos"><br>
+            <a href="https://ejemplos parrafos.com" target="_blank"> Ejemplos de parrafos </a>
+            <hr>
+            <dt> Listas: </dt>
+            <dd> Agrupan una cantidad de elementos en una lista, estas pueden estar organizadas o desorganizadas </dd>
+            <p> Listas organizadas: </p>
+            <ol>
+                <li> elemento a </li>
+                <li> elemento b </li>
+                <li> elemento c </li>
+                <li> elemento d </li>
+            </ol>
+            <p> Listas desorganizadas: </p>
+            <ul>
+                <li>elemento d </li>
+                <li>elemento i </li>
+                <li>elemento v </li>
+                <li>elemento x </li>
+            </ul>
+            <img src="https://lh4.googleusercontent.com/proxy/pPrN-CkmXNC6xDa5BU-eBqOdhq-QuCxufQFs5c6wlR0-dvKYZblsHoGGMg6ryurDNseCJtasLZu1kKaHt39ac5NMe1lO91eqKhUv9EXfPUy17xW6" alt="Lista"><br>
+            <a href="https://ejemplos listas.com" target="_blank"> Ejemplos de listas </a>
+            <hr>
+            <dt> Enlaces: </dt>
+            <dd> Permiten agregar el url de un objeto </dd>
+            <img src="https://res.cloudinary.com/dte7upwcr/image/upload/v1/blog/blog2/acortar-url-herramientas-y-motivos-para-hacerlo/acortar-url-shortener.jpg" alt="Enlace"><br>
+            <a href="https://ejemplos enlaces" target="_blank"> Ejemplos de enlaces </a>
+            <hr>
+            <dt> Imagenes: </dt>
+            <dd> Permiten mostrar una imagen </dd>
+            <img src="https://kinsta.com/es/wp-content/uploads/sites/8/2020/10/tipos-de-archivos-de-imagen.png" alt="Imagen"><br>
+            <a href="https://ejemplos imagenes" target="_blank"> Ejemplos de imagenes </a>
+        </dl>
+        </fieldset>
+        <h2> Formularios HTML> </h2>
+        <p> Los formularios son utilizados para recompilar informacion de un usuario, para esto es necesario utilizar algun elemento de campo de entrada.</p>
+        <p> Esto podria ser un formulario que utliza distintos elementos para campos de entrada </p>
+        <fieldset>
+            <legend> REGISTRO DE USUARIO </legend>
+                <form autocomplete="on">
+                    <label for="nombre"> Nombre completo </label><br>
+                    <input type="text" id="nombre" name="Nombre del usuario:" required>
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <label for="correo electronico"> Correo electronico </label><br>
+                    <input type="email" id="correo electronico" name="Gmail:" placeholder="julanito@gmail.com" required><br>
+                    <label for="contraseña"> Contraseña </label><br>
+                    <input type="password" id="contraseña" name="Contraseña:" placeholder="abc123#$%" minlength="8">
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <label for="telefono"> Numero de telefono </label><br>
+                    <input type="tel" id="telefono" name="Numero de telefono:" pattern="[0-9]{3} [0-9]{3} [0-9]{2} [0-9]{2}">
+                    <input type="submit" value="Enviar"><br>
+                    <small> Formato: 123-456-78-90 </small>
+                    <hr>
+                    <label for="fecha"> Ingrese su fecha de nacimiento: </label><br>
+                    <input type="date" id="fecha" name="Fecha de nacimiento:" required>
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <label for="color"> ¿Cual es su color favorito? </label><br>
+                    <input type="color" id="color" name="Color favorito:" required>
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <label for="numero"> ¿Cual es su numero favorito? </label><br>
+                    <input type="number" id="numero" name="Numero favorito:" required>
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <p> ¿Que lenguajes de programacion manejas? </p>
+                    <small> Seleccione 1 o varias opciones. </small><br>
+                        <input type="checkbox" id="lenguaje 1" value="Html">
+                        <label for="lenguaje 1"> Html </label><br>
+
+                        <input type="checkbox" id="lenguaje 2" value="Css">
+                        <label for="lenguaje 2"> Css </label><br>
+
+                        <input type="checkbox" id="lenguaje 3" value="JavaScript">
+                        <label for="lenguaje 3"> JavaScript </label><br>
+
+                        <input type="checkbox" id="lenguaje 4" value="Python">
+                        <label for="lenguaje 4"> Python </label><br>
+
+                        <input type="checkbox" id="lenguaje 5" value="Go!">
+                        <label for="lenguaje 5"> Go! </label><br>
+                    <input type="submit" value="Enviar"><br>
+                    <hr>
+                    <p> ¿Cual es su lenguaje de programacion favorito? </p>
+                    <small> Seleccione solo 1 opcion. </small><br>
+                    <input type="checkbox" id="lenguaje 1" value="Html">
+                        <label for="lenguaje 1"> Html </label><br>
+
+                        <input type="radio" id="lenguaje 2" value="Css">
+                        <label for="lenguaje 2"> Css </label><br>
+
+                        <input type="radio" id="lenguaje 3" value="JavaScript">
+                        <label for="lenguaje 3"> JavaScript </label><br>
+
+                        <input type="radio" id="lenguaje 4" value="Python">
+                        <label for="lenguaje 4"> Python </label><br>
+
+                        <input type="radio" id="lenguaje 5" value="Go!">
+                        <label for="lenguaje 5"> Go! </label><br>
+                    <input type="submit" value="Enviar"><br>
+                    <hr>
+                    <label for="genero de peliculas"> Seleccione su género de película favorita </label><br><br>
+                    <select id="genero de peliculas" name="Pelicula favorita:" size="6">
+                        <option value="Acción"> Acción </option>
+                        <option value="Aventura"> Aventura </option>
+                        <option value="Animación"> Animación </option>
+                        <option value="Comedia"> Comedia </option>
+                        <option value="Documental"> Documental </option>
+                        <option value="Drama"> Drama </option>
+                        <option value="Fantasía"> Fantasía </option>
+                        <option value="Ciencia ficción"> Ciencia ficción </option>
+                        <option value="Romance"> Romance </option>
+                        <option value="Suspenso"> Suspenso </option>
+                        <option value="Terror"> Terror </option>
+                        <option value="Thriller"> Thriller </option>
+                    </select><br>
+                    <input type="image" src="https://i.pinimg.com/564x/bc/04/04/bc04047103009de7643b16289a28f5d9.jpg" alt="submit">
+                    <hr>
+                    <p> ¿Cual es su deporte favorito? </p>
+                    <input list="deporte" name="deporte favorito">
+                    <datalist id="deporte">
+                        <option value="futbol">
+                        <option value="baloncesto">
+                        <option value="voleibol">
+                        <option value="golf">
+                        <option value="patinaje">
+                        <option value="boxeo">
+                        <option value="ciclismo">
+                        <option value="natación">
+                        <option value="tenis">
+                        <option value="bmx racing">
+                        <option value="ajedrez">
+                        <option value="karate">
+                    </datalist>
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <label for="texto"> Escriba sus hobbies en el campo de texto </label><br><br>
+                    <textarea id="texto" name="Su hobby favorito es:"> Mi hooby favorito es </textarea><br>
+                    <input type="submit" value="Enviar">
+                    <hr>
+                    <p> Ingrese 2 numeros para sumar: </p>
+                    <input type="number" id="a" name="a"> 
+                    +
+                    <input type="number" id="b" name="b"> 
+                    =
+                    <output name="x" for="a b"></output><br>
+                    <input type="submit" value="Enviar">
+                </form>
+        </fieldset>
+    </body>
+</html>
